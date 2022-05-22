@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html image wrap</title>
+
+    <style>
+      body {
+        margin: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        color: rgb(3, 3, 3);
+      }
+      /* to make the image float right */
+      .wrap {
+        float: right;
+        margin: 5px;
+      }
+      p {
+        text-align: justify;
+        font-size: 25px;
+      }
+      img {
+        width: 650px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Wrapping Text around Images using html-->
+    <section>
+      <h1>The Forger Family</h1>
+
+      <div>
+        <img
+          src="fam.png"
+          alt="The forger family picture"
+          style="float: left; margin: 5px; width: 650px; height: 400px;"
+        />
+      </div>
+
+      <div>
+        <p>
+          The Family consists of:
+        </p>
+
+        <p></p>
+        <!--Loid start-->
+        <p>
+          Loid Forger: The adoptive father of Anya Forger, who works undercover
+          as a psychiatrist working in Ostania, while he secretly works as a
+          spy.
+          <br />
+        </p>
+        <!--Loid End-->
+
+        <p>
+          <!--Yor start-->
+          Yor Forger: The mother of the family that works as a civil servant at
+          Berlint City Hall while also working for an unknown assassin
+          organization by the code name "Thorn Princess".
+        </p>
+        <!--Yor End-->
+        <br />
+
+        <!--Anya start-->
+        <p>
+          Anya Forger: The adopted daughter of Loid Forger and Yor Forger, who
+          doesn't know she isn't Loid's biological daughter. She was used as an
+          experiment by the Ostanian government that gave her the ability to
+          read minds. She ended up in an orphanage multiple times until
+          eventually, she met Loid who adopted her.
+        </p>
+        <!--Anya End-->
+        <br />
+
+        <p>
+          <!--Bond Start-->
+          Bond Forger: The pet of the family, much like Anya he too was used for
+          experimentation by the Ostanian government and eventually found his
+          way into the black market where he was sold to be a bomb dog. He would
+          eventually meet Anya due to his precognition ability given to him from
+          the experiments.
+        </p>
+        <!--Bond end-->
+      </div>
+    </section>
+
+    <!--Wrapping Text around Images using CSS-->
+
+    <section>
+      <h1>The Forger Family</h1>
+
+      <div class="wrap">
+        <img src="fam.png" alt="The forger family picture" />
+      </div>
+
+      <div>
+        <p>
+          The Family consists of:
+        </p>
+
+        <p></p>
+        <!--Loid start-->
+        <p>
+          Loid Forger: The adoptive father of Anya Forger, who works undercover
+          as a psychiatrist working in Ostania, while he secretly works as a
+          spy.
+          <br />
+        </p>
+        <!--Loid End-->
+
+        <p>
+          <!--Yor start-->
+          Yor Forger: The mother of the family that works as a civil servant at
+          Berlint City Hall while also working for an unknown assassin
+          organization by the code name "Thorn Princess".
+        </p>
+        <!--Yor End-->
+        <br />
+
+        <!--Anya start-->
+        <p>
+          Anya Forger: The adopted daughter of Loid Forger and Yor Forger, who
+          doesn't know she isn't Loid's biological daughter. She was used as an
+          experiment by the Ostanian government that gave her the ability to
+          read minds. She ended up in an orphanage multiple times until
+          eventually, she met Loid who adopted her.
+        </p>
+        <!--Anya End-->
+        <br />
+
+        <p>
+          <!--Bond Start-->
+          Bond Forger: The pet of the family, much like Anya he too was used for
+          experimentation by the Ostanian government and eventually found his
+          way into the black market where he was sold to be a bomb dog. He would
+          eventually meet Anya due to his precognition ability given to him from
+          the experiments.
+        </p>
+        <!--Bond end-->
+      </div>
+    </section>
+  </body>
+</html>
